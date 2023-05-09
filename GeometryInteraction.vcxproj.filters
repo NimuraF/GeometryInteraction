@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Point">
+      <UniqueIdentifier>{82c5f649-07d6-4e26-ab3b-476091d20adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs">
+      <UniqueIdentifier>{f60a5c2b-6d04-45fd-8e0f-57288be94368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs\Leaf">
+      <UniqueIdentifier>{94865d7a-cc3b-46bd-ae0b-7198259f4120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs\Bird">
+      <UniqueIdentifier>{10118812-b92e-4753-a400-f761c6fabb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs\Leaf\Usable">
+      <UniqueIdentifier>{e1edc67e-29f5-4bc4-8397-492ba69c6f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point">
+      <UniqueIdentifier>{252b4b56-00b3-40a5-8e36-3625cc33f166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs">
+      <UniqueIdentifier>{6132a5a8-6e35-4a0c-a439-55e7b8490d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf">
+      <UniqueIdentifier>{2a6b9943-b674-402d-85f1-94ed2298554c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf\Usable">
+      <UniqueIdentifier>{e0c14283-3315-479b-9391-788566a4d076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interfaces">
+      <UniqueIdentifier>{c25a1a4d-349e-4708-8bf2-0cd2542b67ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interfaces">
+      <UniqueIdentifier>{f65767cb-e867-405e-80da-a218ec7d3cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs\Leaf\Core">
+      <UniqueIdentifier>{ab85b1b8-0048-456f-8f88-627b1d8dc0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf\Core">
+      <UniqueIdentifier>{fcfd3ab3-d6d5-4c05-9a77-640fadef522f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Point\Childs\Leaf\Danger">
+      <UniqueIdentifier>{b314671a-0bf3-4e2d-a1df-ab1a1acfbb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf\NewFilter1">
+      <UniqueIdentifier>{1ff08325-8bc0-4760-9ff0-cbfb0d3a44bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFigure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Исходные файлы\Point\Childs\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendlyLeaf.cpp">
+      <Filter>Исходные файлы\Point\Childs\Leaf\Usable</Filter>
+    </ClCompile>
+    <ClCompile Include="IDanger.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IUsable.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IHitbox.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreLeaf.cpp">
+      <Filter>Исходные файлы\Point\Childs\Leaf\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFigure.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Файлы заголовков\Point\Childs\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendlyLeaf.h">
+      <Filter>Файлы заголовков\Point\Childs\Leaf\Usable</Filter>
+    </ClInclude>
+    <ClInclude Include="IDanger.h">
+      <Filter>Файлы заголовков\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUsable.h">
+      <Filter>Файлы заголовков\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IHitbox.h">
+      <Filter>Файлы заголовков\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreLeaf.h">
+      <Filter>Файлы заголовков\Point\Childs\Leaf\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
