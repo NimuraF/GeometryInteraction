@@ -13,5 +13,7 @@ public:
 
 	void setHP(int);
 	int getHP();
+
+	virtual ~FriendlyLeaf() {};
 };
 

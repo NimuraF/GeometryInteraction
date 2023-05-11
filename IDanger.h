@@ -2,6 +2,6 @@
 class IDanger {
 
 public:
-	virtual void dealtDagame() = 0;
+	virtual int dealtDamage(int) = 0;
 };
 
