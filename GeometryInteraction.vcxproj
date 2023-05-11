@@ -130,6 +130,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFigure.cpp" />
+    <ClCompile Include="BuffDuplicateHPLeaf.cpp" />
     <ClCompile Include="CoreLeaf.cpp" />
     <ClCompile Include="FriendlyLeaf.cpp" />
     <ClCompile Include="IDanger.cpp" />
@@ -144,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFigure.h" />
+    <ClInclude Include="BuffDuplicateHPLeaf.h" />
     <ClInclude Include="CoreLeaf.h" />
     <ClInclude Include="FriendlyLeaf.h" />
     <ClInclude Include="IDanger.h" />

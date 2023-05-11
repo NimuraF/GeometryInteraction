@@ -55,8 +55,14 @@
     <Filter Include="Исходные файлы\Point\Childs\Leaf\Danger">
       <UniqueIdentifier>{b314671a-0bf3-4e2d-a1df-ab1a1acfbb01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Point\Childs\Leaf\NewFilter1">
+    <Filter Include="Исходные файлы\Point\Childs\Leaf\Usable\Buff">
+      <UniqueIdentifier>{e4d3f3e9-e96f-48c4-8983-42d7b33483f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf\Danger">
       <UniqueIdentifier>{1ff08325-8bc0-4760-9ff0-cbfb0d3a44bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Point\Childs\Leaf\Usable\Buff">
+      <UniqueIdentifier>{bee01231-f233-4e46-8cd7-5a688bf6313e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +96,9 @@
     <ClCompile Include="CoreLeaf.cpp">
       <Filter>Исходные файлы\Point\Childs\Leaf\Core</Filter>
     </ClCompile>
+    <ClCompile Include="BuffDuplicateHPLeaf.cpp">
+      <Filter>Исходные файлы\Point\Childs\Leaf\Usable\Buff</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -118,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="CoreLeaf.h">
       <Filter>Файлы заголовков\Point\Childs\Leaf\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffDuplicateHPLeaf.h">
+      <Filter>Файлы заголовков\Point\Childs\Leaf\Usable\Buff</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

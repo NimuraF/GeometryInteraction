@@ -2,6 +2,7 @@
 #include "CoreLeaf.h"
 
 extern HDC hdc;
+extern int bufftimer;
 
 CoreLeaf::CoreLeaf(int X, int Y, int speed, int HP, COLORREF color) : Leaf(X, Y, speed, color) {
 	this->setHP(HP);
@@ -48,6 +49,21 @@ void CoreLeaf::Show() {
 	Polygon(hdc, myleaf, 20);
 	DeleteObject(Brush);
 	DeleteObject(Pen);
+
+	if (bufftimer > 0) {
+		POINT myshield[5] = {
+			{X, Y - 10},
+			{X - 15, Y - 20}, 
+			{X - 15, Y - 40},
+			{X + 15, Y - 40},
+			{X + 15, Y - 20},
+		};
+		HBRUSH BrushS = CreateSolidBrush(RGB(0, 0, 100));
+		SelectObject(hdc, BrushS);
+		Polygon(hdc, myshield, 5);
+		DeleteObject(BrushS);
+	}
+
 }
 
 void CoreLeaf::Hide() {
@@ -61,5 +77,8 @@ int CoreLeaf::getHP() {
 void CoreLeaf::setHP(int HP) {
 	if (this->getHP() < 125) {
 		this->HP = HP;
+	}
+	else {
+		this->HP = 125;
 	}
 }

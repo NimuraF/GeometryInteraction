@@ -20,5 +20,7 @@ public:
 	bool isIntersection(int, int, int, int);
 
 	std::pair <std::pair <int, int>, std::pair <int, int> > getHB();
+
+	virtual ~Leaf() {};
 };
 
