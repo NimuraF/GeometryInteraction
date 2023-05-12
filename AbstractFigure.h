@@ -24,5 +24,7 @@ public:
 	/* Методы взаимодействия с цветом */
 	void setColor(COLORREF color = RGB(0, 0, 0));
 	COLORREF getColor();
+
+	virtual ~AbstractFigure() {};
 };
 

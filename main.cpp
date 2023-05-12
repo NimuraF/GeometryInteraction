@@ -140,7 +140,7 @@ LRESULT CALLBACK MainProcedure
 				}
 			}
 
-			/* Обрабытваем опасные объекты IDANGER типа Bird */
+			/* Обрабатываем опасные объекты IDANGER типа Bird */
 			for (int i = 0; i < ALL_ENEMIES; i++) {
 
 				EnemyBirds[i]->createHitbox();

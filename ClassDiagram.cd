@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractFigure" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAICAEAAAAAAAAAAUAQCBAAAAgGAIYAA=</HashCode>
+      <FileName>AbstractFigure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACCEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaf" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAAAAAACAABAAAAAAAAQECABAAAAKCAAAAAA=</HashCode>
+      <FileName>Leaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FriendlyLeaf" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAgAAAAAAQQAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>FriendlyLeaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuffDuplicateHPLeaf" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAACAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuffDuplicateHPLeaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreLeaf" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASAAAAAAAQAEAAAAAAAQAAEAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>CoreLeaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bird" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgEgABAAAAACAABAAAAAAAAUECABAAAAIAABAAAA=</HashCode>
+      <FileName>Bird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBird" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAQAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedBird" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RedBird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDanger" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDanger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IHitbox" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IHitbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IUsable" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUsable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

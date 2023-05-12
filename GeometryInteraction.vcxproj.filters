@@ -159,4 +159,7 @@
       <Filter>Файлы заголовков\Point\Childs\Bird\Danger</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
 </Project>
