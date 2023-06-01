@@ -10,6 +10,5 @@ public:
 	void Show();
 	void Hide();
 
-	virtual ~Point() {};
 };
 

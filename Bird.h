@@ -24,7 +24,5 @@ public:
 	bool isIntersection(int FX, int FY, int SX, int SY);
 
 	std::pair <std::pair <int, int>, std::pair <int, int> > getHB();
-
-	virtual ~Bird() {};
 };
 
